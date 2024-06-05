@@ -1,0 +1,46 @@
+
+input{
+width: 12em;
+height: 4em;
+font-size: 15px;
+background-color: darkgray;
+}
+input[value="clear"]{
+background-color: darkgreen;
+color: white;
+font-size: 15px;
+}
+input:active{
+  background-color: lightblue;
+}
+body{
+  background-color:green;
+  height:100px;
+}
+h1{
+ /* background-color:indigo;
+  background-image:url("one.png");*/
+  background-repeat: no-repeat;
+  color:yellow;
+}
+.body2{
+  height:50px;
+ /* background-image:url("one.png");*/
+  background-repeat: no-repeat;
+  background-color: black;
+}
+textarea{
+  height: 8em;
+  margin-top: -16px;
+  background-color:silver;
+  color: white;
+  font-size: 18px;
+}
+.sign{
+background-color: darkred;
+color: yellow;
+font-size: 15px;
+}
+tr input{  
+border-radius:12px;
+}

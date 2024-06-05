@@ -1,0 +1,73 @@
+  <!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kevin"/>
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Calculator</title>
+    
+    <script type="text/JavaScript">
+      <!-- 
+           var num;
+           function sb(a){
+             document.getElementById('output').innerHTML='';
+            num = document.getElementById('output').value+a;
+            document.getElementById('output').value = num;
+            if(sessionStorage){
+              sessionStorage.setItem('data',num);
+            }
+           }
+           
+           function clean(){
+             document.getElementById('output').value="";
+           }
+           function Result(){
+               console.log(sessionStorage.getItem('data'));
+             
+             var cal = eval(document.getElementById('output').value);
+             document.getElementById('output').value=Number(cal);
+           }
+      //End hiding from incompatible browsers>
+    </script>
+</head>
+
+<body class="body2">
+  <header>
+  <h1 align="middle">CODED_[1/0]_C5L3UL5T4R</h1>
+  </header>
+               <textarea name="output" id=output rows="8" cols="40"></textarea>
+          
+           <table id="table" border="0px" width="100%" cellspacing="0" cellpadding="0">
+         <tr>
+           <td><input type="button" onclick="sb(this.value)"    value="1"/></td>
+             <td><input type="button" onclick="sb(this.value)"  value="2"></td>
+             <td><input type="button" onclick="sb(this.value)"  value="3"></td>
+             <td><input type="button" class="sign" onclick="sb(this.value)"  value="+"></td>
+             <td><input type="button" class="sign"  onclick="sb(this.value)"  value="*"></td>
+          </tr>
+             <tr>
+               <td><input type="button"   onclick="sb(this.value)"    value="4"></td>
+                <td><input type="button"  onclick="sb(this.value)"   value="5"></td>
+                 <td><input type="button" onclick="sb(this.value)"  value="6"></td>
+                 <td><input type="button" class="sign"  onclick="sb(this.value)"  value="-"></td>
+                 <td><input type="button" class="sign"  onclick="sb(this.value)"  value="/"></td>
+                 </tr>
+              <tr>
+                 <td><input type="button"    onclick="sb(this.value)"      value="7"></td>
+                   <td><input type="button"  onclick="sb(this.value)"    value="8"></td>
+                  <td><input type="button"   onclick="sb(this.value)"    value="9"></td>
+                  <td><input type="button"  onclick="clean()" value="clear"></td>
+                   
+                   <td><input type="button" class="sign" onclick="Result()"         value="="></td>
+                   </tr>
+                   
+                   <tr>
+                    <td><input type="button"  onclick="sb(this.value)"   value="0"></td>
+                    <td><input type="button"  onclick="sb(this.value)"   value="."></td>
+         </table>
+</body>
+
+</html>
